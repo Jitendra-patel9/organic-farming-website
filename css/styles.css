@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+ .logo-img{
+  height: 48px;
+border-radius: 57px;
+}
+.navbar{
+  background-color: #ECEFA4;
+  position: sticky;
+}
+a.nav-link{
+  color: black;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 20px;
+}
+a.nav-link:hover{
+  color: #fff;
+}
+li.nav-item:hover{
+  background-color: #ECEFA4;
+    border-radius: 75px;
+    border:0.1px solid #fff;
+}
+li.nav-item{
+  margin: 0px 49px;
+}
+/* carousel */
+.carousel-img {
+    height: 618px;
+    width: 100%;
+}
+.carousel-caption h5,p{
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+nav.navbar.navbar-expand-lg.navbar-light.sticky{
+  position: sticky;
+  z-index: 1;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* about section */
+#features{
+  text-align: center;
+  padding:28px 65px;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.col-sm-12 {
+    text-align: -webkit-center;
+}
+.features-heading {
+    width: 69%;
+    margin: auto;
+}
+.btn.btn-bgc{
+  background: #ECEFA4;
+}
+.card{
+  width: 18rem;
+}
+
+/* about section */
+#about{
+  background: rgba(0,0,0,0.7) url("https://images.unsplash.com/photo-1522125307274-36420256794e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.about-content{
+  width: 87%;
+  text-align: left;
+  margin: auto;
+  padding: 52px 2px;
+  color: #fff;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+.logo-image{
+  height: 248px;
+  border-radius: 155px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  margin: 42px 2px;
+}
+.logo-para{
+margin: 2px 103px;
+font-size: 17px;
+font-family: 'Baloo Bhaina 2';
+}
+.about-content h2{
+  margin: 0px 100px;
+}
+
+/*variety section  */
+#variety{
+  background-color: #ECEFA4;
+}
+div.row.var{
+  text-align: center;
+width: 90%;
+margin: auto;
+}
+.variety-content{
+  padding: 45px 35px;
+}
+
+/*count-section  */
+#count-section{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Baloo Bhaina 2';
+}
+.truck-img{
+  width: 106%;
+}
+.count-section-content p{
+  width: 52%;
+  margin: auto;
+  padding: 20px 0px;
+}
+div.count-section-content{
+  padding: 40px 0px;
+}
+
+/* footer section */
+#footer{
+  background: rgba(0,0,0,0.7) url("https://images.unsplash.com/photo-1599511491576-ab06653a4ace?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fGZhcm1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.footer-content{
+  color: #fff;
+  padding: 34px 120px;
+  display: flex;
+}
+.linking{
+  width: 46%;
+}
+.linking h5,.social h5,.contacts h5{
+  padding: 20px 2px;
+  color: #ECEFA4;
+}
+.social-links,.contacts ul{
+  list-style-type: none;
+}
+.social h5,.contacts h5{
+  text-align: center;
+}
+.social{
+  padding: 0px 32px;
+}
+.contacts{
+  width: 34%;
+}
+.copyright{
+  border-top: 1px dashed #ECEFA4;
+  color: #fff;
+  margin: 0px 120px;
+  display: inline-block;
+}
+.copyright p{
+  width: 72%;
+  padding: 45px 0px;
+}
+.terms{
+  display: inline;
+}
+.terms a{
+  text-decoration: none;
+  color: #ECEFA4;
+  padding: 0px 16px;
+}
+.vl {
+  border-left: 2px solid #ECEFA4;
+  height: 16px;
+  display: inline-block;
+}
+/* social icons fixing */
+i.fas,i.fab{
+  font-size: 28px;
+  padding: 0px 10px;
+  color: #ECEFA4;
+}
+
+.terms a{
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.terms a:hover{
+  font-size: 17px;
+  text-decoration: underline;
+  color:#fff;
+}
+
+.ic{
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+.ic:hover{
+  font-size: 30px;
+  text-decoration: underline;
+  color:#fff;
+}
+.social a{
+  text-decoration: none;
+  color: #fff;
+}
+.social a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:991px) {
+/*media navbar section*/
+.logo-img {
+    height: 91px;
+}
+span.navbar-toggler-icon{
+  width: 2.5em;
+      height: 2.5em;
+}
+a.dropdown-item,a.nav-link {
+    font-size: 30px;
+}
+/*media carousel section*/
+.carousel-caption h5{
+  font-size: 30px;
+}
+.carousel-caption p{
+  font-size: 21px;
+}
+/*media features section*/
+.features-heading{
+  font-size: 40px;
+width: 105%;
+}
+.card-body{
+  font-size: 30px;
+}
+.card-title{
+  font-size: 23px;
+}
+a.btn.btn-bgc{
+  font-size: 23px;
+}
+div.card{
+  width: 23rem;
+}
+/* media about */
+#about{
+  height: 1404px;
+}
+.flex-container{
+  flex-direction: column;
+}
+.logo-image{
+  height: 417px;
+      width: 44%;
+      margin: auto;
+      border-radius: 214px;
+}
+.about-content {
+    width: 100%;
+    text-align: justify;
+  }
+  .logo-para {
+    margin: 40px 36px;
+    font-size: 23px;
+  }
+  .about-content h2{
+    text-align: center;
+    font-size: 30px;
+  }
+  .variety-content p{
+    font-size: 30px;
+  }
+  .count{
+    font-size: 40px;
+  }
+  /* media count */
+  div.row.var {
+    width: 100%;
+  }
+
+  /* media footer */
+  #footer{
+    height: 900px;
+    font-size: 19px;
+  }
+  .linking h5, .social h5, .contacts h5 {
+    font-size: 24px;
+}
+i.fas, i.fab {
+    font-size: 50px;
+  }
+}
+
+/* for carsousel section */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+/* for about section */
+.hideme
+{
+    opacity:0;
+}
+
+/* for features section */
+.card{
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.card:hover{
+  width: 107%;
+}
