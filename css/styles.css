@@ -301,10 +301,16 @@ div.card{
   div.row.var {
     width: 100%;
   }
+    .count-section-content p {
+    font-size: 23px;
+  }
+  .truck-img {
+    width: 62%;
+}
 
   /* media footer */
   #footer{
-    height: 900px;
+    height: 950px;
     font-size: 19px;
   }
   .linking h5, .social h5, .contacts h5 {
